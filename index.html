@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>TTT</title>
+</head>
+<body>
+   <!--  <div class="test">Test</div> -->
+   <nav>
+    <ul>
+        <li class="navItem"><a href="#Home" id="home">Home</a></li>
+        <li class="navItem"><a href="#Rules" id="rules">Rules</a></li>
+        <li class="navItem"><a href="#Themes" id="themes-div">Themes
+            <div class="themes-dropdown">
+                <button class="themes-dropdown-content">Blue</button>
+                <button class="themes-dropdown-content">Neon</button>
+                <button class="themes-dropdown-content">Light</button>
+                <!-- I cant work with these tho because i didnt use variables in css and i am too lazy to add them now. -->
+            </div>
+        </a></li>
+        <li class="navItem"><a href="#Quit" id="quit">Quit</a></li>
+    </ul>
+</nav>
+
+
+   <h1>Tic Tac Toe</h1>
+
+   <main>
+    <div class="turn xTurn">X's turn</div>
+    <div class="turn yTurn">O's turn</div>
+
+    <div class="rules-container">
+        <div class="rules-heading">Rules
+            <div class="rules-close-btn">-</div>
+        </div>    
+        <div class="rules-div">You seriously don't know the rules?</div>
+    </div>
+
+    <div class="line-container">
+        <div class="winning-line"></div>
+    </div>
+
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+
+    <button class="reset-btn">Reset</button>
+    <div class="result-div result-draw">Its a draw</div>
+    <div class="winner-result result-X">X Wins</div>
+    <div class="winner-result result-O">O Wins</div>
+<!--     <div class="score">[ winner is __ ]</div> -->
+   </main>
+
+   <footer>
+    <div class="foot-content">---</div>
+   </footer>
+</body>
+</html>
